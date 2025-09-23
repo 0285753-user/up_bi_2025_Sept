@@ -5,7 +5,7 @@ import streamlit as st
 
 def show_header(text_title: str):
   #layout: logo + title side by side
-  col1, col2 = st.columns([1, 6)]
+  col1, col2 = st.columns([1, 6])
 
   with col1:
     st.image("assets/up_logo.jpg", width=200)
