@@ -3,7 +3,7 @@
 
 import streamlit as st
 
-def show_header(text_title: tr):
+def show_header(text_title: str):
   #layout: logo + title side by side
   col1, col2 = st.columns([1, 6)]
 
